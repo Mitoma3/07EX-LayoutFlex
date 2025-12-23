@@ -2,12 +2,15 @@ body {
   padding: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 nav {
   max-width: 960px;
 }
+
 nav ul {
   border: 1px solid #000;
 }
+
 nav a {
   text-decoration: none;
   color: #000;
@@ -18,4 +21,29 @@ nav a {
   display: block;
   padding: 10px;
   margin: 10px;
+}
+
+/* oplossing */
+
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#nav1 ul {
+  justify-content: space-evenly;
+}
+
+#nav2 ul li {
+  flex: 1 1 auto;
+}
+
+#nav3 ul li {
+  flex: 1 1 0;
+}
+
+#nav4 ul li:nth-child(3) {
+  margin-right: auto;
 }

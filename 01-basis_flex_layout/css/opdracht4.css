@@ -2,15 +2,27 @@ html {
   box-sizing: border-box;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: inherit;
 }
 
 /* Opmaak van de boxes */
-.flex-container > div {
+.flex-container>div {
   border: 1px solid #000;
   background-color: lightgreen;
   padding: 10px;
 }
 
 /* Plaats je oplossing hieronder */
+
+.flex-container {
+  display: block flex;
+}
+
+.flex-container>div {
+  flex: 1 1 0;
+/* flex-grow verdeelt de resterende witruimte. Indien je flex-basis: 0; hebt dan is de
+resterende witruimte = de volledige witruimte en krijg je een gelijke verdeling */
+}

@@ -14,3 +14,12 @@ html {
 }
 
 /* Plaats je oplossing hieronder */
+
+.flex-container{
+  display: block flex;
+}
+
+.flex-container > div{
+  flex: 1 1 auto;
+}
+/* flex en gerelateerde properties, roep je aan op de flex items */

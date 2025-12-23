@@ -6,6 +6,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 /* Opmaak van de boxes */
 .flex-container > div {
   border: 1px solid #000;
@@ -14,3 +16,8 @@ html {
 }
 
 /* Plaats je oplossing hieronder */
+
+.flex-container{
+  display: block flex;
+  flex-direction: row-reverse;
+}

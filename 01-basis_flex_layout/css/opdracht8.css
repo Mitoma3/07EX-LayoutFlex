@@ -16,6 +16,8 @@ html {
 .flex-container {
   display: block flex;
   border: 4px solid blue;
+  justify-content: center;
 }
 
 /* Plaats je oplossing hieronder */
+

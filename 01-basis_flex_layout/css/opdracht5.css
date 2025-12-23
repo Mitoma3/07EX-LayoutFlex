@@ -14,3 +14,15 @@ html {
 }
 
 /* Plaats je oplossing hieronder */
+
+.flex-container{
+  display: block flex;
+}
+
+.flex-container > div{
+  flex: 1 1 0;
+}
+
+#item1, #item5{
+  flex: 2 1 0;
+}
